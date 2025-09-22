@@ -1,0 +1,165 @@
+﻿b<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<%@ Master Language="VB" CodeFile="MasterPage1.master.vb" Inherits="MasterPage1" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+
+<script runat="server">
+</script>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>GliderScore</title>
+    <link rel="stylesheet" type="text/css" href="~/Styles.css" media="screen" runat="server"/>
+    <link rel="shortcut icon" href="~/ImgIcon/GliderScore_Icon1.ico" />
+
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="description" content="Free scoring software for radio control glider competitions." />
+    <meta name="keywords" content="Free, scoring, software, 'radio control', RC, glider, sailplane, competitions,
+                                  F3J, F3B, F3G, F3K, F3L, F3Q, F5B, F5J, F5K, F5L, Thermal, Electric, ALES, multi-lingual" />
+
+    <style type="text/css">
+        body {
+            max-width: 1250px;
+            margin: auto;
+            background-color: black;
+        }
+
+        pre {
+            z-index: 1;
+            position: relative;
+            top: -24px;
+            left: -0px;
+            text-indent: 50px;
+            width: 1026px;
+        }
+
+        h1 {
+            z-index: 1;
+            text-indent: 140px;
+        }
+
+        #GSImage {
+            z-index: 3;
+            position: relative;
+            top: -73px;
+            left: 10px;
+            width: 100px;
+        }
+
+        #menu2 {
+            position: relative;
+            top: -63px;
+        }
+
+        .container {
+            position: relative;
+            top: -60px;
+        }
+
+
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+
+<body>
+    <%--    <form id="form1" runat="server" onsubmit ="return setHourglass();">--%>
+    <form id="form1" runat="server">
+
+        <asp:ScriptManager ID="ToolkitScriptManager2" runat="server"/>
+
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+
+        <div class="header">
+            <div>
+                <div id="menu1">
+                    <a href="Contact.aspx">Contact</a> <a href="Download.aspx">Download</a> <a href="Donate.aspx">Donate</a> <a href="Default.aspx">Home</a>
+                </div>
+                <h1>GliderScore
+                </h1>
+
+                <div id="GSImage">
+                    <a href="default.aspx">
+                        <asp:Image ID="Image2" runat="server" Height="65px" Width="65px" ImageAlign="left"
+                            Style="padding-right: 50px; margin: 2px; padding-top: 0;" ImageUrl="~/ImgHomePage/Icon1.jpg" alt="" />
+                    </a>
+
+                </div>
+                <pre>for all RC Glider Competitions        <a href="CompF3B.aspx">F3B</a>        <a href="CompF3G.aspx">F3G</a>        <a
+                href="CompF3F.aspx">F3F</a>        <a href="CompF3J.aspx">F3J</a>        <a href="CompF3K.aspx">F3K</a>        <a href="CompF3L.aspx">F3L</a>        <a href="CompF3Q.aspx">F3Q</a>        <a
+                    href="CompF5B.aspx">F5B</a>        <a href="CompF5J.aspx">F5J</a>        <a href="CompF5K.aspx">F5K</a>        <a href="CompF5L.aspx">F5L</a>        <a href="CompThermal.aspx">Thermal</a>        <a
+                        href="CompElectric.aspx">Electric</a>        <a href="CompALES.aspx">ALES</a> </pre>
+            </div>
+            <div id="menu2">
+                <a href="Default.aspx">Home</a>
+                <a href="MainMenu.aspx">Main Menu</a>
+                <a href="Setup.aspx">Comp Setup</a>
+                <a href="DrawRounds.aspx">Draw Rounds</a>
+                <a href="Audio.aspx">Display/Timer/Audio</a>
+                <a href="Scoring.aspx">Scoring</a>
+                <a href="Reports.aspx">Reports</a>
+                <a href="Donate.aspx">Donate</a>
+                <a href="Translate.aspx">Translate</a>
+                <a href="FAQ.aspx">FAQ</a>
+                <a href="OnLineScores.aspx">OnLine Scores</a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="contentback">
+                <div class="leftback">
+                    <div class="leftsidebar">
+                        <br />
+
+                        <asp:TreeView ID="TreeView1" runat="server" Font-Size="9pt"
+                            DataSourceID="SiteMapDataSource1"
+                            Width="100%"
+                            NodeIndent="15"
+                            OnDataBound="TreeView1_DataBound"
+                            OnTreeNodeCollapsed="TreeView1_TreeNodeCollapsed"
+                            OnTreeNodeExpanded="TreeView1_TreeNodeExpanded"
+                            ImageSet="Custom"
+                            NoExpandImageUrl="~/ImgTreeview/Space.jpg"
+                            CollapseImageUrl="~/ImgTreeView/Minus.jpg"
+                            ExpandImageUrl="~/ImgTreeView/Plus.jpg"
+                            ExpandImageToolTip="Expand"
+                            CollapseImageToolTip="Collapse"
+                            BorderWidth="0">
+
+                            <NodeStyle CssClass="node_style" />
+                            <HoverNodeStyle CssClass="node_style_hover" />
+                            <SelectedNodeStyle CssClass="node_style_selected" />
+
+
+
+                        </asp:TreeView>
+
+                    </div>
+
+                    <div class="content">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder0" runat="server">
+                        </asp:ContentPlaceHolder>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer" style="position:relative; top:-59px; background-color :lightgray ;">
+            <br />
+            <h3>GliderScore software and this web site Copyright © </h3>
+            <h4>Comments and suggestions welcomed. Send to gerry.carter(at)gliderscore.com</h4>
+            <h4>Software downloaded from this site is provided free and carries no warranty whatsoever.</h4>
+
+        </div>
+
+    </form>
+
+</body>
+</html>

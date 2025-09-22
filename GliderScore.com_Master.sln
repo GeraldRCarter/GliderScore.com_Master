@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "www.GliderScore.com", ".", "{15786493-7014-4909-B4E8-70C4C184DA35}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/WebSite7"
+		Debug.AspNetCompiler.PhysicalPath = "..\www.GliderScore.com - Master\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSite7\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebSite7"
+		Release.AspNetCompiler.PhysicalPath = "..\www.GliderScore.com - Master\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSite7\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "56387"
+		SlnRelativePath = "..\www.GliderScore.com - Master\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15786493-7014-4909-B4E8-70C4C184DA35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15786493-7014-4909-B4E8-70C4C184DA35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15786493-7014-4909-B4E8-70C4C184DA35}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{15786493-7014-4909-B4E8-70C4C184DA35}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0461B0CA-7E84-4CDD-BD1E-23EC2FE0DCBF}
+	EndGlobalSection
+EndGlobal

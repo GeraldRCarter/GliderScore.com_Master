@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+
+  <siteMapNode  title="Root">
+
+    <siteMapNode url="~/Default.aspx" title="Home" value="Home">
+      <siteMapNode url="~/MainMenu.aspx" title="Main Menu" value="HomeMainMenu"/>
+      <siteMapNode url="~/Setup.aspx" title="Comp Setup" value="HomeSetupCompetition" />
+      <siteMapNode url="~/DrawRounds.aspx" title="Draw Rounds" value="HomeDrawRounds" />
+      <siteMapNode url="~/Audio.aspx" title="Timer/Audio" value="DigitalTimer" />
+      <siteMapNode url="~/Scoring.aspx" title="Scoring" value="HomeScoring"/>
+      <siteMapNode url="~/ScoreCheck.aspx" title="Score Check" value="HomeScoreCheck"/>
+      <siteMapNode url="~/Reports.aspx" title="Reports" value="HomeReports"/>
+      <siteMapNode url="~/EmailReports.aspx" title="Email Reports" value="HomeEmailReports"/>
+      <siteMapNode url="~/Donate.aspx" title="Donate" value="HomeDonate"/>
+      <siteMapNode url="~/Translate.aspx" title="Translate" value="HomeTranslate"/>
+      <siteMapNode url="~/FAQ.aspx" title="FAQ" value="HomeFAQ"/>
+      <siteMapNode url="~/Contact.aspx" title="Contact" value="HomeContact"/>
+    </siteMapNode>
+    
+    
+    <siteMapNode url="~/CompF3B.aspx" title="F3B" value="F3BHome">
+      <siteMapNode url="~/MainMenu.aspx?F3B" title="Main Menu" value="F3BMainMenu" />
+      <siteMapNode url="~/Setup.aspx?F3B" title="Comp Setup" value="F3BSetup" />
+      <siteMapNode url="~/DrawRounds.aspx?F3B" title="Draw Rounds" value="F3BDrawRounds" />
+      <siteMapNode url="~/Scoring.aspx?F3B" title="Scoring" value="F3BScoring" />
+      <siteMapNode url="~/Scoring.aspx?ScoreCheckF3B" title="Score Check" value="F3BScoreCheck"/>
+      <siteMapNode url="~/Reports.aspx?F3B" title="Reports" value="F3BReports" />
+    </siteMapNode>
+
+	  <siteMapNode url="~/CompF3G.aspx" title="F3G" value="F3GHome">
+		  <siteMapNode url="~/MainMenu.aspx?F3G" title="Main Menu" value="F3GMainMenu" />
+		  <siteMapNode url="~/Setup.aspx?F3G" title="Comp Setup" value="F3GSetup" />
+		  <siteMapNode url="~/DrawRounds.aspx?F3G" title="Draw Rounds" value="F3GDrawRounds" />
+		  <siteMapNode url="~/Scoring.aspx?F3G" title="Scoring" value="F3GScoring" />
+		  <siteMapNode url="~/Scoring.aspx?ScoreCheckF3G" title="Score Check" value="F3GScoreCheck"/>
+		  <siteMapNode url="~/Reports.aspx?F3G" title="Reports" value="F3GReports" />
+	  </siteMapNode>
+
+	  <siteMapNode url="~/CompF3F.aspx" title="F3F" value="F3FHome">
+      <siteMapNode url="~/MainMenu.aspx?F3F" title="Main Menu" value="F3FMainMenu" />
+      <siteMapNode url="~/Setup.aspx?F3F" title="Comp Setup" value="F3FSetup" />
+      <siteMapNode url="~/DrawRounds.aspx?F3F" title="Draw Rounds" value="F3FDrawRounds" />
+      <siteMapNode url="~/Scoring.aspx?F3F" title="Scoring" value="F3FScoring" />
+      <siteMapNode url="~/Scoring.aspx?ScoreCheckF3F" title="Score Check" value="F3FScoreCheck"/>
+      <siteMapNode url="~/Reports.aspx?F3F" title="Reports" value="F3FReports" />
+    </siteMapNode>
+    
+    <siteMapNode url="~/CompF3J.aspx" title="F3J" value="F3JHome">
+      <siteMapNode url="~/MainMenu.aspx?F3J" title="Main Menu" value="F3JMainMenu" />
+      <siteMapNode url="~/Setup.aspx?F3J" title="Comp Setup" value="F3JSetup" />
+      <siteMapNode url="~/DrawRounds.aspx?F3J" title="Draw Rounds" value="F3JDrawRounds" />
+      <siteMapNode url="~/Scoring.aspx?F3J" title="Scoring" value="F3JScoring" />
+      <siteMapNode url="~/Scoring.aspx?ScoreCheckF3J" title="Score Check" value="F3JScoreCheck"/>
+      <siteMapNode url="~/Reports.aspx?F3J" title="Reports" value="F3JReports" />
+    </siteMapNode>
+
+    <siteMapNode url="~/CompF3K.aspx" title="F3K" value="F3KHome">
+      <siteMapNode url="~/MainMenu.aspx?F3K" title="Main Menu" value="F3KMainMenu" />
+      <siteMapNode url="~/Setup.aspx?F3K" title="Comp Setup" value="F3KSetup" />
+      <siteMapNode url="~/DrawRounds.aspx?F3K" title="Draw Rounds" value="F3KDrawRounds" />
+      <siteMapNode url="~/Scoring.aspx?F3K" title="Scoring" value="F3KScoring" />
+      <siteMapNode url="~/Scoring.aspx?ScoreCheckF3K" title="Score Check" value="F3KScoreCheck"/>
+      <siteMapNode url="~/Reports.aspx?F3K" title="Reports" value="F3KReports" />
+    </siteMapNode>
+
+    <siteMapNode url="~/CompF3Q.aspx" title="F3Q" value="F3QHome">
+      <siteMapNode url="~/MainMenu.aspx?F3Q" title="Main Menu" value="F3QMainMenu" />
+      <siteMapNode url="~/Setup.aspx?F3Q" title="Comp Setup" value="F3QSetup" />
+      <siteMapNode url="~/DrawRounds.aspx?F3Q" title="Draw Rounds" value="F3QDrawRounds" />
+      <siteMapNode url="~/Scoring.aspx?F3Q" title="Scoring" value="F3QScoring" />
+      <siteMapNode url="~/Scoring.aspx?ScoreCheckF3Q" title="Score Check" value="F3QScoreCheck"/>
+      <siteMapNode url="~/Reports.aspx?F3Q" title="Reports" value="F3QReports" />
+    </siteMapNode>
+
+    <siteMapNode url="~/CompF3L.aspx" title="F3L" value="F3LHome">
+      <siteMapNode url="~/MainMenu.aspx?F3L" title="Main Menu" value="F3LMainMenu" />
+      <siteMapNode url="~/Setup.aspx?F3L" title="Comp Setup" value="F3LSetup" />
+      <siteMapNode url="~/DrawRounds.aspx?F3L" title="Draw Rounds" value="F3LDrawRounds" />
+      <siteMapNode url="~/Scoring.aspx?F3L" title="Scoring" value="F3LScoring" />
+      <siteMapNode url="~/Scoring.aspx?ScoreCheckF3L" title="Score Check" value="F3LScoreCheck"/>
+      <siteMapNode url="~/Reports.aspx?F3L" title="Reports" value="F3LReports" />
+    </siteMapNode>
+
+    <siteMapNode url="~/CompF5B.aspx" title="F5B" value="F5BHome">
+      <siteMapNode url="~/MainMenu.aspx?F5B" title="Main Menu" value="F5BMainMenu" />
+      <siteMapNode url="~/Setup.aspx?F5B" title="Comp Setup" value="F5BSetup" />
+      <siteMapNode url="~/DrawRounds.aspx?F5B" title="Draw Rounds" value="F5BDrawRounds" />
+      <siteMapNode url="~/Scoring.aspx?F5B" title="Scoring" value="F5BScoring" />
+      <siteMapNode url="~/Scoring.aspx?ScoreCheckF5B" title="Score Check" value="F5BScoreCheck"/>
+      <siteMapNode url="~/Reports.aspx?F5B" title="Reports" value="F5BReports" />
+    </siteMapNode>
+
+    <siteMapNode url="~/CompF5J.aspx" title="F5J" value="F5JHome">
+      <siteMapNode url="~/MainMenu.aspx?F5J" title="Main Menu" value="F5JMainMenu" />
+      <siteMapNode url="~/Setup.aspx?F5J" title="Comp Setup" value="F5JSetup" />
+      <siteMapNode url="~/DrawRounds.aspx?F5J" title="Draw Rounds" value="F5JDrawRounds" />
+      <siteMapNode url="~/Scoring.aspx?F5J" title="Scoring" value="F5JScoring" />
+      <siteMapNode url="~/Scoring.aspx?ScoreCheckF5J" title="Score Check" value="F5JScoreCheck"/>
+      <siteMapNode url="~/Reports.aspx?F5J" title="Reports" value="F5JReports" />
+    </siteMapNode>
+
+    <siteMapNode url="~/CompF5K.aspx" title="F5K" value="F5KHome">
+      <siteMapNode url="~/MainMenu.aspx?F5K" title="Main Menu" value="F5KMainMenu" />
+      <siteMapNode url="~/Setup.aspx?F5K" title="Comp Setup" value="F5KSetup" />
+      <siteMapNode url="~/DrawRounds.aspx?F5K" title="Draw Rounds" value="F5KDrawRounds" />
+      <siteMapNode url="~/Scoring.aspx?F5K" title="Scoring" value="F5KScoring" />
+      <siteMapNode url="~/Scoring.aspx?ScoreCheckF5K" title="Score Check" value="F5KScoreCheck"/>
+      <siteMapNode url="~/Reports.aspx?F5K" title="Reports" value="F5KReports" />
+    </siteMapNode>
+
+	  <siteMapNode url="~/CompF5L.aspx" title="F5L" value="F5LHome">
+		  <siteMapNode url="~/MainMenu.aspx?F5L" title="Main Menu" value="F5LMainMenu" />
+		  <siteMapNode url="~/Setup.aspx?F5L" title="Comp Setup" value="F5LSetup" />
+		  <siteMapNode url="~/DrawRounds.aspx?F5L" title="Draw Rounds" value="F5LDrawRounds" />
+		  <siteMapNode url="~/Scoring.aspx?F5L" title="Scoring" value="F5LScoring" />
+		  <siteMapNode url="~/Scoring.aspx?ScoreCheckF5L" title="Score Check" value="F5LScoreCheck"/>
+		  <siteMapNode url="~/Reports.aspx?F5L" title="Reports" value="F5LReports" />
+	  </siteMapNode>
+	  
+    <siteMapNode url="~/CompThermal.aspx" title="Thermal" value="ThermalHome">
+      <siteMapNode url="~/MainMenu.aspx?Thermal" title="Main Menu" value="ThermalMainMenu" />
+      <siteMapNode url="~/Setup.aspx?Thermal" title="Comp Setup" value="ThermalSetup" />
+      <siteMapNode url="~/DrawRounds.aspx?Thermal" title="Draw Rounds" value="ThermalDrawRounds" />
+      <siteMapNode url="~/Scoring.aspx?Thermal" title="Scoring" value="ThermalScoring" />
+      <siteMapNode url="~/Scoring.aspx?ScoreCheckThermal" title="Score Check" value="ThermalScoreCheck"/>
+      <siteMapNode url="~/Reports.aspx?Thermal" title="Reports" value="ThermalReports" />
+    </siteMapNode>
+
+    <siteMapNode url="~/CompElectric.aspx" title="Electric" value="ElectricHome">
+      <siteMapNode url="~/MainMenu.aspx?Electric" title="Main Menu" value="ElectricMainMenu" />
+      <siteMapNode url="~/Setup.aspx?Electric" title="Comp Setup" value="ElectricSetup" />
+      <siteMapNode url="~/DrawRounds.aspx?Electric" title="Draw Rounds" value="ElectricDrawRounds" />
+      <siteMapNode url="~/Scoring.aspx?Electric" title="Scoring" value="ElectricScoring" />
+      <siteMapNode url="~/Scoring.aspx?ScoreCheckElectric" title="Score Check" value="ElectricScoreCheck"/>
+      <siteMapNode url="~/Reports.aspx?Electric" title="Reports" value="ElectricReports" />
+    </siteMapNode>
+
+    <siteMapNode url="~/CompALES.aspx" title="ALES" value="ALESHome">
+      <siteMapNode url="~/MainMenu.aspx?ALES" title="Main Menu" value="ALESMainMenu" />
+      <siteMapNode url="~/Setup.aspx?ALES" title="Comp Setup" value="ALESSetup" />
+      <siteMapNode url="~/DrawRounds.aspx?ALES" title="Draw Rounds" value="ALESDrawRounds" />
+      <siteMapNode url="~/Scoring.aspx?ALES" title="Scoring" value="ALESScoring" />
+      <siteMapNode url="~/Scoring.aspx?ScoreCheckALES" title="Score Check" value="ALESScoreCheck"/>
+      <siteMapNode url="~/Reports.aspx?ALES" title="Reports" value="ALESReports" />
+    </siteMapNode>
+    
+  </siteMapNode>
+
+    
+</siteMap>

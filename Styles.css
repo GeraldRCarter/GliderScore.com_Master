@@ -1,0 +1,846 @@
+﻿.tbl-layout {
+    table-layout: auto;
+    width: 98%;
+    border-collapse: collapse;
+}
+
+/* CSS FOR TABLE ROWS */
+
+tr {
+    height: 20px;
+}
+
+.thName {
+    white-space: pre-wrap;
+    font-size: 12px;
+    text-align: left;
+    width : 170px;
+    height: 20px;
+    padding-left: 3px;
+    justify-content :center;
+}
+
+.tdName {
+    text-align: left;
+    width: 170px;
+    padding-left: 3px;
+    border-top: solid;
+    border-top-width: 1px;
+    border-top-color: gainsboro;
+}
+
+.thCtry {
+    white-space: pre-wrap;
+    font-size: 12px;
+    text-align: left;
+    width: 5.1%;
+    height: 20px;
+}
+
+.tdCtry {
+    width: 5.1%;
+    text-align: left;
+    border-top: solid;
+    border-top-width: 1px;
+    border-top-color: gainsboro;
+}
+
+.thFltNbr {
+    white-space: pre-wrap;
+    font-size: 12px;
+    text-align: center;
+    width: 3.8%;
+    height: 20px;
+}
+
+.tdFltNbr {
+    width: 3.8%;
+    text-align: center;
+    border-top: solid;
+    border-top-width: 1px;
+    border-top-color: gainsboro;
+}
+
+.thTime {
+    white-space: pre-wrap;
+    font-size: 12px;
+    text-align: right;
+    width: 7.6%;
+    height: 20px;
+}
+
+.tdTime {
+    width: 7.6%;
+    text-align: right;
+    border-top: solid;
+    border-top-width: 1px;
+    border-top-color: gainsboro;
+}
+
+.thHeight {
+    white-space: pre-wrap;
+    font-size: 12px;
+    text-align: right;
+    width: 6%;
+    height: 20px;
+}
+
+.tdHeight {
+    width: 6.0%;
+    text-align: right;
+    border-top: solid;
+    border-top-width: 1px;
+    border-top-color: gainsboro;
+}
+
+.thLOut {
+    white-space: pre-wrap;
+    font-size: 12px;
+    text-align: right;
+    width: 6.0%;
+    height: 20px;
+}
+
+.thMtrReStart {
+    white-space: pre-wrap;
+    font-size: 12px;
+    text-align: right;
+    width: 6.0%;
+    height: 20px;
+}
+
+.tdLOut {
+    width: 6.0%;
+    text-align: right;
+    border-top: solid;
+    border-top-width: 1px;
+    border-top-color: gainsboro;
+}
+
+.thFPlty {
+    white-space: pre-wrap;
+    font-size: 12px;
+    text-align: right;
+    width: 6.0%;
+    height: 20px;
+}
+
+
+.tdFPlty {
+    width: 6.0%;
+    text-align: right;
+    border-top: solid;
+    border-top-width: 1px;
+    border-top-color: gainsboro;
+}
+
+.thPoints {
+    white-space: pre-wrap;
+    font-size: 12px;
+    text-align: right;
+    width: 6.5%;
+    height: 20px;
+}
+
+.tdPoints {
+    width: 6.5%;
+    text-align: right;
+    border-top: solid;
+    border-top-width: 1px;
+    border-top-color: gainsboro;
+}
+
+.thTotPts {
+    white-space: pre-wrap;
+    font-size: 12px;
+    text-align: right;
+    width: 6.5%;
+    height: 20px;
+}
+
+.tdTotPts {
+    width: 6.5%;
+    text-align: right;
+    border-top: solid;
+    border-top-width: 1px;
+    border-top-color: gainsboro;
+}
+
+.thScore {
+    white-space: pre-wrap;
+    font-size: 12px;
+    text-align: right;
+    width: 6.5%;
+    height: 20px;
+    padding-right: 3px;
+}
+
+.tdScore {
+    width: 6.5%;
+    text-align: right;
+    padding-right: 3px;
+    border-top: solid;
+    border-top-width: 1px;
+    border-top-color: gainsboro;
+}
+
+.thSPlty {
+    white-space: pre-wrap;
+    font-size: 12px;
+    text-align: right;
+    width: 7.6%;
+    height: 20px;
+}
+
+.tdSPlty {
+    width: 7.6%;
+    text-align: right;
+    border-top: solid;
+    border-top-width: 1px;
+    border-top-color: gainsboro;
+}
+
+.thZeroRnd {
+    white-space: pre-wrap;
+    font-size: 12px;
+    text-align: right;
+    width: 7.6%;
+    height: 20px;
+}
+
+.tdZeroRnd {
+    width: 7.6%;
+    text-align: right;
+    border-top: solid;
+    border-top-width: 1px;
+    border-top-color: gainsboro;
+}
+
+
+
+
+.tdRoundNo {
+    font-family: verdana,tahoma,helvetica;
+    font-size: 11pt;
+    text-align: left;
+    font-weight: 600;
+    width: 25.3%;
+}
+
+.tdwithtopborder {
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: gainsboro;
+}
+
+.tdwithbottomborderblack {
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+}
+
+
+
+
+
+/* CSS FOR TABLE DETAIL ROWS */
+
+/* END OF CSS FOR TABLE ROWS */
+
+.faqstyle:hover {
+    color: blue;
+    cursor: default;
+}
+
+
+.node_style {
+    height: 20px;
+    background-color: transparent;
+    color: Black;
+    max-height: 20px;
+}
+
+.node_style_hover {
+    background-color: blue;
+    color: White;
+}
+
+.node_style:link {
+    color: Black;
+    background-color: transparent;
+}
+
+    .node_style:link:hover {
+        color: white;
+        background-color: blue;
+    }
+
+.node_style_selected {
+    color: blue;
+    font-weight: bold;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+.header {
+    width: 1030px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.container {
+    width: 1030px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.contentback {
+    width: 100%;
+    float: left;
+    background-color: #EAF1F2;
+    overflow: hidden;
+    position: relative;
+}
+
+.leftback {
+    width: 100%;
+    float: left;
+    background-image: url('imgShading/GrayShadeForTreeView1.png');
+    background-position: right;
+    position: relative;
+    right: 880px; /* width of the  content area */
+}
+
+
+
+.leftsidebar {
+    float: left;
+    width: 150px;
+    overflow: hidden;
+    position: relative;
+    left: 880px;
+}
+
+.content {
+    float: left;
+    width: 880px;
+    /*width: auto;*/
+    /*overflow: hidden;*/
+    overflow: auto;
+    /*overflow :scroll ;*/
+    position: relative;
+    left: 880px;
+}
+
+
+.footer {
+    width: 1030px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+A:hover {
+    background: blue;
+    color: White;
+}
+
+A:link {
+    background: white;
+    color: black;
+}
+
+body {
+    padding: 5px;
+    /*margin: 0px;*/
+}
+
+div {
+    /*width: 925px;*/
+    width: 870px;
+    font-family: Arial, Verdana, Sans-Serif;
+    font-weight: normal;
+    font-size: 9px;
+    text-align: left;
+    float: left;
+}
+
+p {
+    width: 870px;
+    /*width: 925px;*/
+    font-family: Arial, Verdana, Sans-Serif;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+
+
+h1 {
+    font-family: Verdana, sans-serif,helvetica, Arial;
+    font-size: 34px;
+    color: GrayText;
+    background-color: silver;
+    background-image: url(imgshading/grayshade54px.png);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    /*margin: 0px;*/
+    width: 1020px;
+    height: 44px;
+    left: 20px;
+}
+
+h2 {
+    font-family: Arial, verdana, sans-serif;
+    font-size: 20px;
+    background-color: rgb(235,235,225);
+    background-image: url(imgshading/grayshade44px.png);
+    color: Gray;
+    padding: 2px;
+    /*margin: 0px;*/
+    width: 1020px;
+    height: 25px;
+    left: 20px;
+}
+
+pre {
+    font-family: Arial, Verdana, Sans-Serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: Gray;
+    vertical-align: bottom;
+    background-image: url(imgshading/grayshade25px.png);
+    height: 20px;
+    background-color: white;
+    padding: 2px;
+    /*margin: 0px;*/
+    width: 1025px;
+    left: 20px;
+}
+
+    pre a {
+        font-family: Arial, Verdana, Sans-Serif;
+        font-weight: bold;
+        font-size: 10px;
+        color: Gray;
+        vertical-align: bottom;
+        background-color: white;
+        background-image: url(imgshading/grayshade25px.png);
+        height: 20px;
+        padding: 2px;
+        /*margin: 0px;*/
+        width: 1025px;
+        left: 20px;
+    }
+
+
+        pre a:link {
+            font-family: Arial, Verdana, Sans-Serif;
+            font-weight: bold;
+            font-size: 10px;
+            color: Gray;
+            vertical-align: bottom;
+            background-color: white;
+            background-image: url(imgshading/grayshade25px.png);
+            height: 20px;
+            padding: 2px;
+            /*margin: 0px;*/
+            width: 1025px;
+            left: 20px;
+        }
+
+        pre a:hover {
+            background-image: url(imgshading/GrayShade25px.png);
+            color: black;
+        }
+
+
+
+h3 {
+    font-family: Arial, Verdana, Sans-Serif;
+    font-size: 15px;
+    text-align: center;
+    height: 15px;
+    left: 20px;
+    width: 1000px;
+}
+
+h4 {
+    font-family: Arial, Verdana, Sans-Serif;
+    font-size: 10px;
+    text-align: center;
+    width: 1000px;
+    height: 10px;
+    left: 20px;
+}
+
+h5 {
+    font-family: Arial, Verdana, Sans-Serif;
+    font-size: 20px;
+    text-align: left;
+    /*padding: 0px;*/
+    /*margin: 0px;*/
+    left: 20px;
+    font-weight: bold;
+}
+
+.h6 {
+    font-family: Arial, Verdana, Sans-Serif;
+    font-size: 15px;
+    text-align: left;
+    /*padding: 0px;*/
+    /*margin: 0px;*/
+    height: 15px;
+    left: 20px;
+    width: 1000px;
+}
+
+hyperlink {
+    background-color: silver;
+    color: Gray;
+}
+
+/*
+img
+{
+	width:600px;
+	margin:10px;
+	left:20px;
+	padding-top :5px;
+	}      
+*/
+
+/*img {
+    padding-right :10px
+}*/
+
+
+
+
+label {
+    text-align: left;
+    width: 500px;
+    padding: 20px;
+    vertical-align: top;
+}
+
+
+span {
+    font-family: Arial, Verdana, Sans-Serif;
+    font-weight: bold;
+    font-size: 11px;
+    text-align: left;
+    /*padding: 0px;*/
+    /*border-width: 0px;*/
+}
+/*
+table 
+{
+	text-align:left;
+	padding:20px; 	
+	background-color:White;
+	width:1000px;
+	background-color: #FFFFFF;
+	border-top:0px;
+	}
+ */
+tr, li {
+    font-family: Arial, Verdana, Sans-Serif;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+
+
+textbox {
+    padding-left: 50px;
+    top: 20px;
+    vertical-align: top
+}
+
+
+ul {
+    position: relative;
+    top: -10px;
+    font-family: Arial, Verdana, Sans-Serif;
+    font-weight: normal;
+    font-size: 13px;
+    /*left: 0px;*/
+    /*width: 171px;*/
+}
+
+
+#menu1 {
+    z-index: 2;
+    max-width: 600px;
+    float: right;
+    width: auto;
+    height: 54px;
+    position: relative;
+    top: 23px;
+    left: 120px;
+    background-image: url(imgshading/grayshade54px.png);
+}
+
+    #menu1 a {
+        font-family: Arial, Verdana, Sans-Serif;
+        font-weight: normal;
+        font-size: 15px;
+        float: right;
+        width: auto;
+        color: gray;
+        padding: 0.2em 0.5em;
+        padding-top: 30px;
+        background-image: url(imgshading/grayshade54px.png);
+    }
+
+        #menu1 a:hover {
+            background-color: rgb(39,39,39);
+            color: black;
+        }
+
+/*#menu1 {
+    float: right;
+    width: auto;
+    height: 54px;
+    left: 120px;
+    position: relative;
+    top: 25px;
+    background-image: url(imgshading/grayshade54px.png);
+}
+
+    #menu1 a {
+        font-family: Arial, Verdana, Sans-Serif;
+        font-weight: normal;
+        font-size: 15px;
+        float: right;
+        width: auto;
+        color: gray;
+        padding: 0.2em 0.5em;
+        padding-top: 30px;
+        background-image: url(imgshading/grayshade54px.png);
+    }
+
+        #menu1 a:hover {
+            background-color: rgb(39,39,39);
+            color: black;
+        }*/
+
+
+#menu2 {
+    float: left;
+    width: 1020px;
+    background-color: Silver;
+    background-image: url(ImgShading/GrayShadingLow.png);
+    padding: 0.2em 0.5em;
+}
+
+    #menu2 a {
+        font-family: Arial, Verdana, Sans-Serif;
+        font-weight: normal;
+        font-size: 15px;
+        float: left;
+        width: auto;
+        color: black;
+        background-image: url(imgshading/GrayShadingLow.png);
+        padding: 0.2em 0.5em;
+    }
+
+        #menu2 a:hover {
+            background-color: rgb(39,39,39);
+            color: blue;
+        }
+
+
+.ajax__tab_header {
+    font-family: verdana,tahoma,helvetica;
+    font-size: 11px;
+    border-bottom: solid 1px #999999
+}
+
+.ajax__tab_tab {
+    font-family: Verdana,tahoma,helvetica;
+    font-size: 11px;
+    border-bottom: solid 1px #999999
+}
+
+.ajax__tab_body {
+    font-family: verdana,tahoma,helvetica;
+    font-size: 16pt;
+    border: 1px solid #999999;
+    border-top: 0;
+    padding: 8px;
+    background-color: #ffffff;
+}
+
+u {
+    text-decoration: underline;
+}
+
+/*Css for OnLineScores page*/
+
+.scores-BlankLabel {
+    font-family: verdana,tahoma,helvetica;
+    font-size: 9pt;
+    text-align: center;
+    width: 30px;
+    height: 10px;
+}
+
+.scores-Rank {
+    font-family: verdana,tahoma,helvetica;
+    font-size: 9pt;
+    text-align: center;
+    font-weight: 700;
+    /*width: 30px;
+    position:relative;
+    left:0;*/
+}
+
+.scores-Name {
+    font-family: verdana,tahoma,helvetica;
+    font-size: 9pt;
+    text-align: left;
+    font-weight: 700;
+    /*width: 200px;
+    position: relative ;*/
+}
+
+.scores-Country {
+    font-family: verdana,tahoma,helvetica;
+    font-size: 9pt;
+    text-align: center;
+    font-weight: 700;
+    /*width: 50px;*/
+}
+
+.scores-Score {
+    font-family: verdana,tahoma,helvetica;
+    font-size: 9pt;
+    text-align: right;
+    font-weight: 700;
+    /*width: 70px;*/
+}
+
+.scores-Pcnt {
+    font-family: verdana,tahoma,helvetica;
+    font-size: 9pt;
+    text-align: center;
+    font-weight: 700;
+    /*width: 60px;*/
+}
+
+.scores-RawScore {
+    font-family: verdana,tahoma,helvetica;
+    font-size: 9pt;
+    text-align: right;
+    font-weight: 700;
+    /*width: 70px;*/
+}
+
+.scores-Left {
+    font-family: verdana,tahoma,helvetica;
+    font-size: 9pt;
+    text-align: left;
+    font-weight: 700;
+    /*width: 60px;*/
+}
+
+.scores-Centered {
+    font-family: verdana,tahoma,helvetica;
+    font-size: 9pt;
+    text-align: center;
+    font-weight: 700;
+    /*width: 60px;*/
+}
+
+.scores-Right {
+    font-family: verdana,tahoma,helvetica;
+    font-size: 9pt;
+    text-align: right;
+    font-weight: 700;
+    /*width: 60px;*/
+}
+
+.scores-Data-Left {
+    font-family: verdana,tahoma,helvetica;
+    font-size: 9pt;
+    text-align: left;
+    font-weight: 500;
+    /*width: 60px;*/
+}
+
+.scores-Data-Right {
+    font-family: verdana,tahoma,helvetica;
+    font-size: 9pt;
+    text-align: right;
+    font-weight: 500;
+    /*width: 60px;*/
+}
+
+.scores-Data-Center {
+    font-family: verdana,tahoma,helvetica;
+    font-size: 9pt;
+    text-align: center;
+    font-weight: 500;
+    /*width: 60px;*/
+}
+
+.scores-F3KTask {
+    font-family: verdana,tahoma,helvetica;
+    font-size: 6pt;
+    text-align: right;
+    font-weight: 700;
+}
+
+.scores-F5KTask {
+    font-family: verdana,tahoma,helvetica;
+    font-size: 6pt;
+    text-align: right;
+    font-weight: 700;
+}
+
+.scores-TaskHeader {
+    font-family: verdana,tahoma,helvetica;
+    font-size: 11pt;
+    text-align: left;
+    font-weight: 600;
+}
+
+.scores-FlightScoreHeader {
+    font-family: verdana,tahoma,helvetica;
+    font-size: 9pt;
+    text-align: right;
+    font-weight: 600;
+    /*width: 60px;*/
+}
+
+.scores-Panel {
+    width: auto;
+    height: auto;
+    white-space: nowrap;
+    float: left;
+    clear: both;
+}
+
+.scores-PilotListHeader {
+    width: auto;
+    font-family: verdana,tahoma,helvetica;
+    font-size: 10pt;
+    text-align: left;
+    font-weight: 500;
+}
+
+.scores-PilotListDetail {
+    width: auto;
+    font-family: verdana,tahoma,helvetica;
+    font-size: 9pt;
+    text-align: left;
+    font-weight: 500;
+}

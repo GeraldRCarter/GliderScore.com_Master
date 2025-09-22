@@ -1,0 +1,70 @@
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPage1.master" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<script runat="server">
+    
+    
+</script>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <asp:TabContainer ID="TabContainer1" runat="server">
+      <%--NEW COMP--%>
+        <asp:TabPanel runat="server" ID="ScoreCheck" HeaderText="Score Check" TabIndex="2">
+            <ContentTemplate>
+             
+                <img   ID="Img1" src="~/ImgScoreCheck/ScoreCheck.jpg" runat="server" style="width:60%; float:right" alt=""/><br />
+                                
+                <h5>
+                    Score Check</h5>
+                <p>
+                    The <b>Score Check</b> button appears on both the Competition Setup screen and on the Scoring screen.<br />
+                    Clicking this button brings up the screen shown at right.<br /><br />
+
+                    The Score Check screen allows you to quickly find scores</p>
+                    <ul>
+                        <li>that may have been missed, or</li>
+                        <li>that may have data entry errors.</li>
+                    </ul>
+                    
+                    <p>Items of interest are coloured -</p>
+                    <ul>
+                        <li>Red - equal to or below lower limit.</li>
+                        <li>Blue - equal to or greater than upper limit.</li>
+                        <li>Grey - value is within limits.</li>
+                    </ul>
+                    
+                    <p>Depending on the type of competition, you might want to check for</p>
+                    <ul>
+                        <li>Group scores that are very low (or zero).</li>
+                        <li>Duration times that are very low or unusually high.</li>
+                        <li>Landing scores that are very low.</li>
+                        <li>Laps flown (F3B Distance) that are very low or very high.</li>
+                        <li>Speed times (F3B or F3F) that are very low or very high.</li>
+                        <li>Motor Run times that are very low or very high.</li>
+                        <li>Start heights (F5J) that are very low or very high.</li>
+                    </ul>
+                <p>The items that can be set depend on the type of competition that is being checked.<br />
+                   Un-check any item that is of no interest.<br /><br />
+                      
+                   By un-checking 'All Pilots', it is possible to quickly cycle through each pilot in turn by clicking on the up and down arrows.<br />
+                   Individual rounds can be isolated in a similar way.<br />
+                   
+                </p>
+              
+            </ContentTemplate>
+        </asp:TabPanel >
+       
+    
+    </asp:TabContainer>
+
+
+
+
+
+
+</asp:Content>
+
+
